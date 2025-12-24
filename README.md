@@ -1,13 +1,16 @@
 # XR Capstone Team Template
 
-Template for CSE 481 V repositories
+Template for CSE 481 V repositories ==replace with a description of your project==
+
+**Team:** ==update with your team's info==
+- Student 1 (email@uw.edu)
 
 In this repository:
 
 - `.gitattributes`: Git file treatment configuration.
 - `.gitignore`: Files that should not be managed by git.
 - `LICENSE`: MIT license. Change as needed.
-- `README.md`: This file. **Replace setup instructions with instructions on how to install and run your project.**
+- `README.md`: This file. ==Replace setup instructions with instructions on how to install and run your project.==
 
 # Setup instructions
 
@@ -37,7 +40,7 @@ Follow these instructions:
 1. Clone this repository.
 2. Use Unity or Xcode to create a project with this repository as the root.
 
-**Make sure you do not create your project as a subfolder in this repository.**
+==Make sure you do not create your project as a subfolder in this repository.==
 
 ## Once you're done...
 
