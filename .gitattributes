@@ -10,12 +10,6 @@
 [attr]unity-json        eol=lf linguist-language=json
 [attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
 
-# NOTE: The unityyamlmerge driver requires setup. Add to your ~/.gitconfig:
-#   [merge "unityyamlmerge"]
-#     name = Unity YAML Merge
-#     driver = '<path-to-Unity>/Editor/Data/Tools/UnityYAMLMerge.exe' merge -p "%BASE" "%REMOTE" "%LOCAL" "%MERGED"
-# On macOS, the path is typically: /Applications/Unity/Hub/Editor/<version>/Unity.app/Contents/Tools/UnityYAMLMerge
-
 # Optionally collapse Unity-generated files on GitHub diffs
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
 
@@ -220,10 +214,8 @@ Package.realitycomposerpro text linguist-language=json
 *.heic                  lfs
 *.heif                  lfs
 
-# Unity specific
+# Unity LFS
 *.cubemap               lfs
-# NOTE: *.unitypackage is ignored by default in .gitignore.
-# LFS rule exists in case you need to track exported packages.
 *.unitypackage          lfs
 
 # =========================================================================
@@ -244,6 +236,7 @@ Package.realitycomposerpro text linguist-language=json
 
 # Compiled libraries
 *.dll                   lfs
+*.pdb                   lfs
 *.so                    lfs
 *.dylib                 lfs
 *.a                     lfs
@@ -254,12 +247,8 @@ Package.realitycomposerpro text linguist-language=json
 # If you need to track vendored frameworks, handle their internal binaries.
 
 # Executables and build outputs
-# NOTE: These are typically ignored in .gitignore. LFS rules exist here
-# in case you need to track them (remove from .gitignore first).
-*.aab                   lfs
 *.apk                   lfs
 *.exe                   lfs
-*.ipa                   lfs
 
 # iOS/visionOS specific
 *.car                   lfs
