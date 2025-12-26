@@ -1,10 +1,15 @@
 # XR Capstone Team Template
 
-Template for CSE 481 V repositories **[replace with a description of your project]**
+Template for CSE 481 V repositories 
+
+> [!IMPORTANT]
+> Replace with the title and  description of your project
 
 **Team:** 
 - Student 1 (email@uw.edu)
-- **[update with your team's info]**
+
+> [!IMPORTANT]
+> Update with your team's info
 
 In this repository:
 
@@ -26,10 +31,12 @@ Follow these instructions:
 
 ## Create Your XR Project
 
+Use the following instruction to set up your project such that your git repo is at the root of the project.
+
 1. Use Unity or Xcode to create a project.
 2. Navigate to the project root and initialize a git repository with `git init`.
 3. Add GitHub as a remote: `git add remote origin <your team's repo URL>`.
-4. Integrate the starter files: `git fetch origin` then `git switch main`.
+4. Pull the starter files: `git fetch origin` then `git switch main`.
 5. Commit your newly created project files to the repo.
 
 ## (For Unity projects) Configure Unity YAML Merge
