@@ -13,10 +13,10 @@ Template for CSE 481 V repositories
 
 In this repository:
 
-- `.gitattributes`: Git file handling configuration.
-- `.gitignore`: Files that should not be managed by git.
-- `LICENSE`: MIT license. Change as needed.
-- `.github/pull_request_template.md`: Helpful template that ensures you have everything you need to submit code. Customize as needed.
+- `.gitattributes`: Git file handling configuration. Edit this to modify how different files are treated.
+- `.gitignore`: Files that should not be managed by git. Edit this to ignore more or less stuff.
+- `LICENSE`: MIT License. Change as needed.
+- `.github/pull_request_template.md`: Helpful template that ensures you have everything you need to submit work. Customize as needed.
 - `README.md`: This file.
 
 # Setup instructions
